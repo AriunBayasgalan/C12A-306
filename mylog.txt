@@ -1,0 +1,10 @@
+* 9dd248f (HEAD -> master, origin/master, origin/catblue, origin/HEAD, catblue) changed the cat head to be cyan colored in Cat.java, and increased the mouse tail to be 4 times its original length (from 40 to now 160) in Mouse.java.
+*   0411b3b Merge branch 'addmouse'
+|\  
+| * 9c62db3 (origin/addmouse, addmouse) changed mouse text from 'squeak' to 'EEEK'.
+| * 8d094a2 added Mouse.java.
+| * 5f5fe1a changed MyDrawing.java.
+* | c1b3443 (origin/catears, catears) added cat ears to Cat.java.
+|/  
+* e861a72 Added whiskers and updated draw() in Cat.java.
+* 3102e42 initial commit
