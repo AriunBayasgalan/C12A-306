@@ -1,0 +1,4 @@
+Before resolving conflict between merge1 and master:
+	
+
+After resolving conflict between merge1 and master:
