@@ -2,6 +2,10 @@ import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;
 
+/**
+ * @class Cat class
+ * @description Simulates a cat and is able to draw the cat.
+ */
 public class Cat {
 	// drawing constants are private - noone needs to know what we're doing
 	// pick a head dimension
@@ -27,6 +31,12 @@ public class Cat {
 	private static final int EAR_SIZE = HEAD_DIMENSION/5;
 	
 	// draw will render the Cat on the Graphics object
+	/**
+	 * @description Draws a Cat.
+	 * @param g
+	 * @param catX
+	 * @param catY
+	 */
 	public void draw(Graphics g, int catX, int catY)
 	{
 		Graphics2D g2 = (Graphics2D) g;

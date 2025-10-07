@@ -2,10 +2,24 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
+/**
+ * @class Mouse class
+ * @description Simulates a mouse and is able to draw the mouse.
+ */
 public class Mouse {
+	// stores body length
 	private static final int BODY_LENGTH = 50;
+	// stores body height
 	private static final int BODY_HEIGHT = 20;
+	// stores tail length
 	private static final int TAIL_LENGTH = 160;
+	
+	/**
+	 * @description Draws a Mouse.
+	 * @param g
+	 * @param mouseX
+	 * @param mouseY
+	 */
 	public void draw(Graphics g, int mouseX, int mouseY)
 	{
 		Graphics2D g2 = (Graphics2D) g;
