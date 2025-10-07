@@ -1,4 +1,19 @@
 Before resolving conflict between merge1 and master:
-	
+
+CONFLICT (content): Merge conflict in src/Cat.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+<<<<<<< HEAD
+	private static final int HEAD_DIMENSION = 200;
+=======
+	private static final int HEAD_DIMENSION = 400;
+>>>>>>> merge1
+
+
 
 After resolving conflict between merge1 and master:
+
+[master e51f8ba] merge conflict handled
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+private static final int HEAD_DIMENSION = 200;
